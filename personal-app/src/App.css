@@ -7,6 +7,14 @@
   animation: 3s fillSvg linear;
 }
 
+@media screen and (max-width: 768px) {
+  #text {
+    height: 80vw;
+    width: 100vw;
+    margin-bottom: -8vw;
+  }
+}
+
 @keyframes fillSvg{
   0%{
     stroke-dashoffset: 1059;
