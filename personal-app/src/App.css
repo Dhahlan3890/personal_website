@@ -1,0 +1,19 @@
+
+#text {
+  margin-bottom: -5vw;
+  height: 30vw;
+  width: 60vw;
+  stroke-dasharray: 1059;
+  animation: 3s fillSvg linear;
+}
+
+@keyframes fillSvg{
+  0%{
+    stroke-dashoffset: 1059;
+  }
+  100%{
+    stroke-dashoffset: 0;
+  }
+}
+
+
