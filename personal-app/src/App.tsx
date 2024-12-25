@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import { createContext, useContext, useState, useEffect } from 'react';
 import Home from './components/Home';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
