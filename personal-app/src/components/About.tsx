@@ -42,6 +42,15 @@ const About = () => {
           </div>
         </div>
       </div>
+      <div className="mt-8 text-center">
+        <a 
+          href="https://www.overleaf.com/download/project/660ca0af81184cab2c4f7a7b/build/19459573225-9065cb10e6bf1ed9/output/output.pdf?compileGroup=standard&clsiserverid=clsi-pre-emp-n2d-b-f-8k2d&enable_pdf_caching=true&popupDownload=true"  // Replace this with the correct path to your CV file
+          download
+          className="bg-blue-500 text-white py-2 px-6 rounded-md text-lg hover:bg-blue-600"
+        >
+          Download CV
+        </a>
+      </div>
     </section>
   );
 };
