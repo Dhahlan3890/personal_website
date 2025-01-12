@@ -51,7 +51,7 @@ const Portfolio = () => {
       description: "Created a state-of-the-art lip reading application with TensorFlow and OpenCV; increased accessibility for hearing impaired by 70% and achieved 40% faster processing speeds.",
       tech: "Python, TensorFlow, OpenCV, Matplotlib",
       date: "January 2024",
-      link: "#"
+      link: "https://github.com/Dhahlan3890/LipLexa"
     },
     {
       title: "Intrusion Detection System using Machine Learning: Enhancing Network Security",
@@ -72,28 +72,28 @@ const Portfolio = () => {
       description: "Achieved 93% accuracy in automated weed detection using SVM classification on preprocessed image data.",
       tech: "Python, Arduino, ML, Sensors",
       date: "February 2024",
-      link: "#"
+      link: "https://github.com/Dhahlan3890/WeedSense"
     },
     {
       title: "GestureGear: Hand-Gesture Controlled Car Racing Game",
       description: "Engineered an advanced real-time hand tracking and gesture recognition system, achieving a 40% increase in user interaction accuracy and elevating overall gameplay experience.",
       tech: "Python, OpenCV, Mediapipe, Matplotlib",
       date: "January 2024",
-      link: "#"
+      link: "https://github.com/Dhahlan3890/GestureGear"
     },
     {
       title: "Supply chain management system: A Comprehensive Real World Supply Chain",
       description: "Developed an advanced management system that mirrors the complexities and dynamics of real supply chains.",
       tech: "SQL, NoSQL, Visual Paradigm",
       date: "August 2023",
-      link: "#"
+      link: "https://github.com/Dhahlan3890/Database_Project"
     },
     {
       title: "SecurePass: An Advanced Password Strength Prediction Algorithm",
       description: "Developed a robust password strength prediction algorithm leveraging Pandas for data manipulation and TF-IDF for feature extraction.",
       tech: "Python, Pandas, Numpy, Tf-Idf, NLP",
       date: "June 2023",
-      link: "#"
+      link: "https://github.com/Dhahlan3890/Password_strength_prediction"
     }
   ];
 
