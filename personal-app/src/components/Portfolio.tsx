@@ -28,7 +28,7 @@ const Portfolio = () => {
       description: "App for fruit freshness classification and nutrition insights using ML/LLM.",
       tech: "Flutter, Dart, FastAPI, TensorFlow/PyTorch, LLM APIs, Flutter Vision",
       date: "2025",
-      link: ""
+      link: "https://github.com/Dhahlan3890/freshness_detection_mobile_app"
     },
     {
       title: "Third Eye Glove for the Visually Impaired",
