@@ -108,25 +108,45 @@ const About = () => {
             Skills
           </motion.h3>
           <motion.div 
-            className="grid grid-cols-2 gap-4"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
             variants={containerVariants}
           >
             {[
               {
                 title: "Programming Languages",
-                skills: "C, C++, Python, JavaScript"
+                skills: "Python, JavaScript"
               },
               {
-                title: "ML Libraries",
-                skills: "TensorFlow, PyTorch, scikit-learn"
+                title: "ML/DL Frameworks",
+                skills: "PyTorch, TensorFlow, Keras, Scikit-learn, Hugging Face Transformers"
               },
               {
-                title: "Web Development",
-                skills: "HTML, CSS, React.js, Node.js, Django"
+                title: "Agentic AI / LLMs",
+                skills: "LangChain, Transformers, RAG, reasoning/planning systems"
               },
               {
-                title: "Databases",
-                skills: "MySQL, MongoDB"
+                title: "Computer Vision & Multimodal AI",
+                skills: "OpenCV, YOLO, CLIP, VLMs, audio processing (Librosa, torchaudio)"
+              },
+              {
+                title: "MLOps & Deployment",
+                skills: "Docker, Kubernetes, MLflow, AWS SageMaker, Vertex AI, CI/CD"
+              },
+              {
+                title: "Cloud Platforms",
+                skills: "AWS, GCP, Azure"
+              },
+              {
+                title: "Big Data / Pipelines",
+                skills: "Spark, Hadoop, Apache Kafka"
+              },
+              {
+                title: "Other Tools",
+                skills: "Git, REST APIs, FastAPI/Flask, ReactJS, NextJS"
+              },
+              {
+                title: "Soft Skills",
+                skills: "Effective Communication, Problem Solving, Team Collaboration, Adaptability, Time Management"
               }
             ].map((category, index) => (
               <motion.div
